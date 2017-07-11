@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         KIS Mark extractor
-// @namespace    http://tampermonkey.net/
+// @name         HIS Mark extractor
+// @namespace    https://github.com/jhertfe/his_mark_extractor
 // @version      0.1
-// @description  Extract your marks in KIS university system
+// @description  Extract your marks in HIS university system
 // @author       Jens Hertfelder
 // @match        https://vw-online.hdm-stuttgart.de/qisserver/rds?state=htmlbesch&moduleParameter=Student&menuid=notenspiegel*
 // @grant        none
