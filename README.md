@@ -4,7 +4,7 @@ Unfortunately it has no function to show you some information about the average 
 So I added it myself.
 
 The script works with:
-- Tampermonkey Script ([Chrome extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo ))
+- Tampermonkey Script ([Chrome extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo ) also available for Firefox, Safari, Edge, Opera Next and more)
 - Greasemonkey Script ([Firefox extension](https://addons.mozilla.org/de/firefox/addon/greasemonkey/))
 
 Enjoy and feel free to give me some feedback
