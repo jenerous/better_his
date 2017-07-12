@@ -4,11 +4,11 @@ Unfortunately it has no function to show you some information about the average 
 So I added it myself.
 
 The script works with:
-- Tampermonkey Script ([https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo Chrome extension])
-- Greasemonkey Script ([https://addons.mozilla.org/de/firefox/addon/greasemonkey/ Firefox extension])
+- Tampermonkey Script ([Chrome extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo ))
+- Greasemonkey Script ([Firefox extension](https://addons.mozilla.org/de/firefox/addon/greasemonkey/))
 
 Enjoy and feel free to give me some feedback
 
 ## Install
-The easiest way to install the script: [https://github.com/jhertfe/better_his/raw/master/better_his.user.js install]
+The easiest way to install the script: [install now](https://github.com/jhertfe/better_his/raw/master/better_his.user.js)
 ### Make sure you edit the match url!
