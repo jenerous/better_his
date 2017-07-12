@@ -10,5 +10,5 @@ The script works with:
 Enjoy and feel free to give me some feedback
 
 ## Install
-The easiest way to install the script: [install now](https://github.com/jhertfe/better_his/raw/master/better_his.user.js)
+If you have Tampermonkey or Greasemonkey installed the easiest way to install the script: [install now](https://github.com/jhertfe/better_his/raw/master/better_his.user.js)
 ### Make sure you edit the match url!
