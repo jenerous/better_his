@@ -10,8 +10,5 @@ The script works with:
 Enjoy and feel free to give me some feedback
 
 ## Install
-The easiest way to install the script:
-- click on the better_his.user.js file in the listing above
-- press the "raw" button in the top right corner
-- there should be an installation hint of the extention you use then
+The easiest way to install the script: [https://github.com/jhertfe/better_his/raw/master/better_his.user.js install]
 ### Make sure you edit the match url!
