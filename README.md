@@ -9,6 +9,11 @@ The script works with:
 
 Enjoy and feel free to give me some feedback
 
+## Current Features
+- add average marks and result mark calculation to the site
+- select your estimated thesis mark by range slider
+- highlight exams of the current term
+
 ## Install
 If you have Tampermonkey or Greasemonkey installed the easiest way to install the script: [install now](https://github.com/jhertfe/better_his/raw/master/better_his.user.js)
 ### Make sure you edit the match url!
