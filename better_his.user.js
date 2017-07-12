@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         better HIS
 // @namespace    https://github.com/jhertfe/better_his
-// @version      0.1
+// @version      1.0
 // @description  Additional information on HIS university system. E.g. statistics on your marks
 // @author       Jens Hertfelder
 // @match        https://vw-online.hdm-stuttgart.de/qisserver/rds?state=htmlbesch&moduleParameter=Student&menuid=notenspiegel*
