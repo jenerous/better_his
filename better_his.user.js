@@ -84,7 +84,7 @@
         results += 'ECTS Summe         : ' + (resultData['sumECTSB'] + resultData['sumECTSM'] + resultData['sumECTSnotMarked'] + 12) + ' / 210' + '<br />';
         results += '<br />';
         results += '<hr />';
-        results += '<br />';
+        results += '<br />Angaben ohne Gewähr!';
 
         var resultBoxStyle = "padding: 10px;";
         $('body div.content h2:last').before('<div id="resultBox" style="' + resultBoxStyle + '"><pre>'+results+'</pre></div>');
