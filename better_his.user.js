@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Additional information on HIS university system. E.g. statistics on your marks
 // @author       Jens Hertfelder
-// @match        https://vw-online.hdm-stuttgart.de/qisserver/rds?state=htmlbesch&moduleParameter=Student&menuid=notenspiegel*
+// @match        https://qis-studenten.htw-aalen.de/qisserverstud/rds?state=notenspiegelStudent*
 // @grant        none
 // ==/UserScript==
 
@@ -87,7 +87,7 @@
         results += '<br />Angaben ohne Gewähr!';
 
         var resultBoxStyle = "padding: 10px;";
-        $('body div.content h2:last').before('<div id="resultBox" style="' + resultBoxStyle + '"><pre>'+results+'</pre></div>');
+        $('body div.content table:last').after('<div id="resultBox" style="' + resultBoxStyle + '"><pre>'+results+'</pre></div>');
         $('#bachelorThesisMark').change(function(){
             resultData['bachelorThesis'] = $('#bachelorThesisMark').val();
             resultData['bachelorThesis'] = (resultData['bachelorThesis'] * 1.0).toFixed(2);
@@ -103,20 +103,19 @@
         var marks  = [];
         var ects   = [];
         var stat   = [];
-        var dates  = [];
         var terms  = [];
         var basicMainSplit = 0;
 
         //  collect data
-        $('tr').each(function(i,e){
+        $('table:last tr').each(function(i,e){
             if ($(e).children('th').text() == 'Hauptstudium'){
                 basicMainSplit = i;
             }
-            terms.push(($(e).children('td.tabelle1')[4]));
-            marks.push(($(e).children('td.tabelle1')[5]));
-            stat.push(($(e).children('td.tabelle1')[6]));
-            ects.push(($(e).children('td.tabelle1')[7]));
-            dates.push(($(e).children('td.tabelle1')[11]));
+            terms.push(($(e).children('td')[2]));
+            marks.push(($(e).children('td')[3]));
+            stat.push(($(e).children('td')[4]));
+            ects.push(($(e).children('td')[5]));
+            console.log(i);
         });
 
         // init for statistics
